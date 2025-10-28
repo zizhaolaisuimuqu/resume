@@ -1,0 +1,49 @@
+# =========================
+# Ignore everything by default
+# =========================
+*
+!.gitignore
+
+# =========================
+# Keep: LaTeX source + final PDF
+# =========================
+!*.tex
+!*.pdf
+
+# Keep: Web front-end files (HTML / CSS / JS)
+!*.html
+!*.css
+!*.js
+
+# Keep: Code projects
+!*.java
+!*.py
+!*.cpp
+!*.c
+!*.h
+
+# =========================
+# Ignore LaTeX build artifacts
+# =========================
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.lof
+*.lot
+*.nav
+*.snm
+
+# =========================
+# Temporary / system files
+# =========================
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
