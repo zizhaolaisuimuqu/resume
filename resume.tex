@@ -1,12 +1,18 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
 % moderncv themes
-\moderncvstyle{classic}                    
-\moderncvcolor{blue}                       
+\moderncvstyle{classic}
+\moderncvcolor{blue}
 
-% character encoding
+% character encoding and geometry
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.85]{geometry}
+
+% layout tuning
+\setlength{\hintscolumnwidth}{2.8cm} % wider timeline column
+\setlength{\separatorcolumnwidth}{1mm}
+\renewcommand*{\sectionfont}{\Large\bfseries\sffamily} % larger section titles
+\renewcommand*{\subsectionfont}{\normalsize\bfseries\sffamily}
 
 % personal data
 \name{Zhengyang}{Yu}
@@ -15,16 +21,13 @@
 \phone[mobile]{+1~510~754~7176}
 \email{zhy079@ucsd.edu}
 \email{zizha.work@outlook.com}
-\social[github]{zizhaolaisuimuqu}
-\social[linkedin]{zhengyang-yu-592a19309}
-\homepage{resume.zizhaolaisuimuqu.top}
+\social[github]{\faGithub~zizhaolaisuimuqu}
+\social[linkedin]{\faLinkedin~zhengyang-yu-592a19309}
+\homepage{\faGlobe~resume.zizhaolaisuimuqu.top}
 \extrainfo{\httplink{aboutme.zizhaolaisuimuqu.top}}\extrainfo{\href{https://aboutme.zizhaolaisuimuqu.top}{\textbf{More →}}}
-
-
 
 \begin{document}
 \makecvtitle
-
 \vspace{-1.5em}
 
 %----------------------------------------------------------------------------------------
@@ -65,7 +68,6 @@ Expected Graduation: June 2027
 \item Enhanced reliability and efficiency through structured error handling and modular component design.
 \end{itemize}
 }
-
 
 %----------------------------------------------------------------------------------------
 %   SKILLS SECTION
