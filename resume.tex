@@ -1,11 +1,14 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
+% moderncv themes
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 
+% character encoding and geometry
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.85]{geometry}
 
+% layout tuning
 \setlength{\hintscolumnwidth}{2.8cm}
 \setlength{\separatorcolumnwidth}{1mm}
 \renewcommand*{\sectionfont}{\Large\bfseries\sffamily}
@@ -13,88 +16,100 @@
 
 % personal data
 \name{Zhengyang}{Yu}
-\title{AI / Software Development Internship Candidate}
-\address{San Diego \& Bay Area}{}{}
+\title{Curriculum Vitae}
+\address{San Diego, CA}{}{}
 \phone[mobile]{+1~510~754~7176}
 \email{zhy079@ucsd.edu}
-\email{zizha.work@outlook.com}
-\social[github]{\faGithub~zizhaolaisuimuqu}
-\social[linkedin]{\faLinkedin~zhengyang-yu-592a19309}
-\homepage{\faGlobe~resume.zizhaolaisuimuqu.top}
+\social[github]{zizhaolaisuimuqu}
+\social[linkedin]{zhengyang-yu-592a19309}
+\homepage{resume.zizhaolaisuimuqu.top}
 
 \begin{document}
 \makecvtitle
-\vspace{-1.5em}
+\vspace{-1.2em}
 
 %----------------------------------------------------------------------------------------
-%   EDUCATION SECTION
+% EDUCATION
 %----------------------------------------------------------------------------------------
+
 \section{Education}
-\cventry{2025 -- Jun 2027}{Bachelor of Science in Computer Science}{University of California, San Diego}{San Diego, CA}{}{
-Expected Graduation: June 2027
+
+\cventry{2025 -- Jun 2027}
+{Bachelor of Science in Computer Science}
+{University of California, San Diego}
+{San Diego, CA}{}{
+Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probability \& Statistics, Machine Learning (in progress)
 }
 
-\cventry{2023 -- 2025}{Associate of Science in Computer Science}{Laney College}{Oakland, CA}{}{}
-
-%----------------------------------------------------------------------------------------
-%   SUMMARY SECTION
-%----------------------------------------------------------------------------------------
-\section{Profile}
-\cvitem{}{
-Computer Science junior with strong Python programming background, hands-on project experience, and interest in AI development. Comfortable working in fast-paced, experimental environments, iterating on prototypes, and collaborating on research-driven projects.
+\cventry{2023 -- 2025}
+{Associate of Science in Computer Science}
+{Laney College}
+{Oakland, CA}{}{
 }
 
 %----------------------------------------------------------------------------------------
-%   PROJECTS SECTION
+% PROJECTS
 %----------------------------------------------------------------------------------------
+
 \section{Projects}
 
-\cventry{2025}{\textbf{HTML to ePub Converter}}{Personal Project}{}{}{
+\cventry{2025}
+{\textbf{Home Assistant Presence Detection Plugin}}
+{Python}{}{}{
 \begin{itemize}
-\item Engineered a full workflow to convert large HTML documents into ePub format, including parsing, metadata handling, and error recovery.
-\item Designed modular components enabling rapid prototyping, iteration, and experimentation with different conversion strategies.
-\item Processed and organized real-world data sources, building scripts to clean and structure unformatted content.
+\item Designed and implemented an event-driven Python plugin to infer real-time room occupancy from entry/exit sensor data.
+\item Built lightweight state-transition logic with a focus on reliability, low latency, and predictable behavior.
+\item Integrated REST APIs and automation workflows for smart-device control using a modular, maintainable architecture.
 \end{itemize}
 }
 
-\cventry{2024}{\textbf{Home Assistant Presence Plugin}}{Personal Project}{}{}{
+\cventry{2025}
+{\textbf{HTML to ePub Conversion Tool}}
+{Python}{}{}{
 \begin{itemize}
-\item Developed Python-based presence detection plugin integrating RESTful APIs and event-driven automation workflows.
-\item Implemented data processing logic for sensor streams to infer room occupancy in real time.
-\item Documented experiments, configurations, and performance observations to guide future improvements.
+\item Developed a scalable document processing pipeline to convert structured HTML content into ePub format.
+\item Implemented parsing, metadata embedding, and robust error-handling for automated content generation.
+\item Designed the system with extensibility in mind for future formats and batch-processing workflows.
 \end{itemize}
 }
 
-\cventry{2023}{\textbf{Java Snake Game}}{Personal Project}{}{}{
+\cventry{2023}
+{\textbf{Snake Game (Console-Based)}}
+{Java}{}{}{
 \begin{itemize}
-\item Built a console-based interactive Snake game using object-oriented Java.
-\item Implemented movement logic, collision detection, and scoring mechanics with emphasis on clean, maintainable code.
-\item Used Git for iterative development and version control on an evolving experimental codebase.
+\item Implemented a classic Snake game using object-oriented programming principles.
+\item Optimized movement and collision detection logic for consistent runtime performance.
+\item Applied modular design and version control practices throughout development.
 \end{itemize}
 }
 
 %----------------------------------------------------------------------------------------
-%   SKILLS SECTION
+% SKILLS
 %----------------------------------------------------------------------------------------
+
 \section{Skills}
-\cvitem{Programming}{\textbf{Python}, Java, C++, C}
-\cvitem{Data / Workflow}{Data processing, scripting, automation, prototyping workflows}
-\cvitem{Concepts}{Algorithms, Data Structures, Object-Oriented Design, Software Testing, Debugging}
-\cvitem{Tools}{Git, Docker, VS Code, Linux}
-\cvitem{Interests}{AI development, experimental coding, research-driven projects}
+
+\cvitem{Programming}{Python, C++, C, Java}
+\cvitem{Machine Learning}{Understanding of ML workflows, data preprocessing, model evaluation concepts}
+\cvitem{Systems}{Linux environment, command-line tooling, debugging, performance-aware programming}
+\cvitem{Concepts}{Data Structures, Algorithms, Object-Oriented Design, Software Testing}
+\cvitem{Tools}{Git, Docker, VS Code}
 
 %----------------------------------------------------------------------------------------
-%   ACTIVITIES SECTION
+% ACTIVITIES
 %----------------------------------------------------------------------------------------
+
 \section{Activities}
-\cvitem{2025--Present}{Member, UCSD Envision Makerspace}
 
-\cvitem{2024--2025}{Computer Consultant, Oakland Public Library - Elmhurst Branch
-\newline Supported community members with computer troubleshooting and taught basic software skills.}
+\cvitem{2024--2025}
+{Computer Consultant, Oakland Public Library
+\newline Provided technical troubleshooting assistance and basic software guidance to community members.}
 
-\cvitem{2024}{Tutor, Community Technology Network
-\newline Provided one-on-one digital literacy tutoring to adults, including basic computer and internet usage.}
+\cvitem{2024}
+{Tutor, Community Technology Network (CTN)
+\newline Delivered one-on-one instruction to help adults improve digital literacy and computer skills.}
 
-\cvitem{2024}{Member, Laney College MESA Program}
+\cvitem{2025--Present}
+{Member, UCSD Envision Makerspace}
 
 \end{document}
