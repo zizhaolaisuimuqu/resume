@@ -4,97 +4,111 @@
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 
-% character encoding and geometry
+% encoding and geometry
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.85]{geometry}
 
 % layout tuning
-\setlength{\hintscolumnwidth}{2.8cm} % wider timeline column
+\setlength{\hintscolumnwidth}{2.8cm}
 \setlength{\separatorcolumnwidth}{1mm}
-\renewcommand*{\sectionfont}{\Large\bfseries\sffamily} % larger section titles
+\renewcommand*{\sectionfont}{\Large\bfseries\sffamily}
 \renewcommand*{\subsectionfont}{\normalsize\bfseries\sffamily}
 
 % personal data
 \name{Zhengyang}{Yu}
-\title{Curriculum Vitae}
-\address{San Diego \& Bay Area}{}{}
+\title{Resume}
+\address{San Diego, CA}{}{}
 \phone[mobile]{+1~510~754~7176}
 \email{zhy079@ucsd.edu}
-\email{zizha.work@outlook.com}
-\social[github]{\faGithub~zizhaolaisuimuqu}
-\social[linkedin]{\faLinkedin~zhengyang-yu-592a19309}
-\homepage{\faGlobe~resume.zizhaolaisuimuqu.top}
-\extrainfo{\httplink{aboutme.zizhaolaisuimuqu.top}}\extrainfo{\href{https://aboutme.zizhaolaisuimuqu.top}{\textbf{More →}}}
+\social[github]{zizhaolaisuimuqu}
+\social[linkedin]{zhengyang-yu-592a19309}
+\homepage{resume.zizhaolaisuimuqu.top}
 
 \begin{document}
 \makecvtitle
-\vspace{-1.5em}
+\vspace{-1.3em}
 
 %----------------------------------------------------------------------------------------
-%   EDUCATION SECTION
+% EDUCATION
 %----------------------------------------------------------------------------------------
 
 \section{Education}
-\cventry{2025 -- Jun 2027}{Bachelor of Science in Computer Science}{University of California, San Diego}{San Diego, CA}{}{
-Expected Graduation: June 2027
+
+\cventry{2025 -- Jun 2027}
+{Bachelor of Science in Computer Science}
+{University of California, San Diego}
+{San Diego, CA}{}{
+Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probability \& Statistics
 }
 
-\cventry{2023 -- 2025}{Associate of Science in Computer Science}{Laney College}{Oakland, CA}{}{
-% GPA: N/A
+\cventry{2023 -- 2025}
+{Associate of Science in Computer Science}
+{Laney College}
+{Oakland, CA}{}{
 }
 
 %----------------------------------------------------------------------------------------
-%   PROJECTS SECTION
+% PROJECTS
 %----------------------------------------------------------------------------------------
 
 \section{Projects}
-\cventry{2023}{\textbf{Java Snake Game}}{Personal Project}{}{}{
+
+\cventry{2025}
+{\textbf{Home Assistant Presence Detection Plugin}}
+{Python}{}{}{
 \begin{itemize}
-\item Developed a classic console-based Snake game using Java, implementing efficient algorithms for movement, collision detection, and scoring.
-\item Utilized object-oriented design principles and version control (Git) to maintain clean, modular code.
+\item Designed and implemented an event-driven Python plugin to infer real-time room occupancy from entry/exit sensor data.
+\item Built deterministic state-transition logic to ensure predictable behavior and reliable automation outcomes.
+\item Integrated REST APIs and modular components to support extensibility and long-term maintainability.
 \end{itemize}
 }
 
-\cventry{2024}{\textbf{Home Assistant Presence Plugin}}{Personal Project}{}{}{
+\cventry{2025}
+{\textbf{HTML to ePub Conversion Tool}}
+{Python}{}{}{
 \begin{itemize}
-\item Built a Home Assistant plugin detecting real-time room occupancy using entry/exit sensor data.
-\item Designed event-driven architecture integrating Python scripts and RESTful APIs for smart lighting automation.
+\item Built a document-processing pipeline to convert structured HTML content into ePub format.
+\item Implemented parsing, metadata embedding, and robust error handling for automated content generation.
+\item Designed the system to support future extensions and batch-processing workflows.
 \end{itemize}
 }
 
-\cventry{2025}{\textbf{HTML to ePub Converter}}{Personal Project}{}{}{
+\cventry{2023}
+{\textbf{Console-Based Snake Game}}
+{Java}{}{}{
 \begin{itemize}
-\item Engineered a converter to transform HTML content into ePub format, implementing scalable parsing and metadata embedding.
-\item Enhanced reliability and efficiency through structured error handling and modular component design.
+\item Implemented a classic Snake game using object-oriented programming principles.
+\item Optimized movement and collision detection logic for consistent runtime behavior.
+\item Practiced modular design and version control throughout development.
 \end{itemize}
 }
 
 %----------------------------------------------------------------------------------------
-%   SKILLS SECTION
+% SKILLS
 %----------------------------------------------------------------------------------------
 
 \section{Skills}
+
 \cvitem{Programming}{Python, Java, C++, C}
-\cvitem{Concepts}{Algorithms, Data Structures, Object-Oriented Design, Software Testing, Debugging}
-\cvitem{Tools}{Git, Docker, VS Code, Linux, Fusion 360, Adobe Creative Suite}
-\cvitem{Other}{Electronics prototyping and fabrication (UCSD Envision Makerspace)}
+\cvitem{Computer Science}{Data Structures, Algorithms, Object-Oriented Design}
+\cvitem{Software Engineering}{Code debugging, testing, modular design, version control}
+\cvitem{Tools}{Git, Linux, Docker, VS Code}
 
 %----------------------------------------------------------------------------------------
-%   ACTIVITIES SECTION
+% ACTIVITIES
 %----------------------------------------------------------------------------------------
 
-\section{Activities}
-\cvitem{2024--2025}{Computer Consultant, Oakland Public Library - Elmhurst Branch
-\newline Supported community members with computer troubleshooting and taught basic software skills.}
+\section{Experience \& Activities}
 
-\cvitem{2024}{Tutor, CTN (Community Technology Network)
-\newline Provided one-on-one tutoring to help adults improve digital literacy skills, including computer operation and internet usage.}
+\cvitem{2024--2025}
+{Computer Consultant, Oakland Public Library
+\newline Provided technical troubleshooting and basic software support to community members with diverse backgrounds.}
 
-\cvitem{2024}{Member, Laney College MESA Program
-\newline Participated in STEM enrichment workshops and peer collaboration.}
+\cvitem{2024}
+{Tutor, Community Technology Network (CTN)
+\newline Delivered one-on-one instruction to help adults improve digital literacy and confidence with technology.}
 
-\cvitem{2025--Present}{Member, UCSD Envision Makerspace
-% \newline Collaborate on cross-disciplinary engineering projects and prototype design tools.
-}
+\cvitem{2025--Present}
+{Member, UCSD Envision Makerspace}
 
 \end{document}
