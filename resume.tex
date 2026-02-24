@@ -1,20 +1,16 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
-% moderncv themes
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 
-% character encoding and geometry
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.85]{geometry}
 
-% layout tuning
 \setlength{\hintscolumnwidth}{2.8cm}
 \setlength{\separatorcolumnwidth}{1mm}
 \renewcommand*{\sectionfont}{\Large\bfseries\sffamily}
 \renewcommand*{\subsectionfont}{\normalsize\bfseries\sffamily}
 
-% personal data
 \name{Zhengyang}{Yu}
 \title{Curriculum Vitae}
 \address{San Diego, CA}{}{}
@@ -38,7 +34,7 @@
 {Bachelor of Science in Computer Science}
 {University of California, San Diego}
 {San Diego, CA}{}{
-Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probability \& Statistics, Machine Learning (in progress)
+Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probability \& Statistics, Machine Learning (in progress), Data Science in Practice (COGS 108)
 }
 
 \cventry{2023 -- 2025}
@@ -54,12 +50,24 @@ Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probabi
 \section{Projects}
 
 \cventry{2025}
+{\textbf{Data Science Pipeline – COGS 108 Final Project}}
+{Python, Pandas}{}{}{
+\begin{itemize}
+\item Developed a structured data ingestion and preprocessing pipeline to clean and transform large-scale compressed datasets.
+\item Automated data validation, feature extraction, and exploratory analysis using reproducible workflows.
+\item Designed modular data-wrangling functions to ensure maintainability and scalability.
+\item Collaborated in a team environment, contributing to analysis, data curation, and implementation.
+\end{itemize}
+}
+
+\cventry{2025}
 {\textbf{Home Assistant Presence Detection Plugin}}
 {Python}{}{}{
 \begin{itemize}
-\item Designed and implemented an event-driven Python plugin to infer real-time room occupancy from entry/exit sensor data.
-\item Built lightweight state-transition logic with a focus on reliability, low latency, and predictable behavior.
-\item Integrated REST APIs and automation workflows for smart-device control using a modular, maintainable architecture.
+\item Designed and implemented an event-driven Python service to infer real-time room occupancy from sensor data.
+\item Built state-transition logic emphasizing reliability, low latency, and predictable system behavior.
+\item Integrated REST-based APIs and automation workflows using a modular architecture.
+\item Developed and tested in a Linux environment with structured logging and containerized workflows.
 \end{itemize}
 }
 
@@ -67,19 +75,9 @@ Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probabi
 {\textbf{HTML to ePub Conversion Tool}}
 {Python}{}{}{
 \begin{itemize}
-\item Developed a scalable document processing pipeline to convert structured HTML content into ePub format.
-\item Implemented parsing, metadata embedding, and robust error-handling for automated content generation.
-\item Designed the system with extensibility in mind for future formats and batch-processing workflows.
-\end{itemize}
-}
-
-\cventry{2023}
-{\textbf{Snake Game (Console-Based)}}
-{Java}{}{}{
-\begin{itemize}
-\item Implemented a classic Snake game using object-oriented programming principles.
-\item Optimized movement and collision detection logic for consistent runtime performance.
-\item Applied modular design and version control practices throughout development.
+\item Built a scalable document-processing pipeline to convert structured HTML content into ePub format.
+\item Implemented parsing, metadata embedding, validation, and robust error handling.
+\item Designed batch-processing workflows with emphasis on automation and reproducibility.
 \end{itemize}
 }
 
@@ -87,13 +85,13 @@ Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probabi
 % SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Skills}
+\section{Technical Skills}
 
 \cvitem{Programming}{Python, C++, C, Java}
-\cvitem{Machine Learning}{Understanding of ML workflows, data preprocessing, model evaluation concepts}
-\cvitem{Systems}{Linux environment, command-line tooling, debugging, performance-aware programming}
-\cvitem{Concepts}{Data Structures, Algorithms, Object-Oriented Design, Software Testing}
-\cvitem{Tools}{Git, Docker, VS Code}
+\cvitem{Machine Learning}{Understanding of ML workflows, preprocessing, feature engineering, and model evaluation}
+\cvitem{Systems \& Engineering}{Linux environment, debugging, performance-aware programming, REST APIs}
+\cvitem{DevOps Exposure}{Docker, Bash scripting, container workflows, basic CI/CD concepts}
+\cvitem{Tools}{Git, VS Code}
 
 %----------------------------------------------------------------------------------------
 % ACTIVITIES
@@ -103,7 +101,7 @@ Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Probabi
 
 \cvitem{2024--2025}
 {Computer Consultant, Oakland Public Library
-\newline Provided technical troubleshooting assistance and basic software guidance to community members.}
+\newline Provided technical troubleshooting assistance and software guidance to community members.}
 
 \cvitem{2024}
 {Tutor, Community Technology Network (CTN)
