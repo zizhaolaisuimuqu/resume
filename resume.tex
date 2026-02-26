@@ -1,35 +1,29 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
-% moderncv themes
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 
-% character encoding and geometry
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.9]{geometry}
 
-% layout tuning
 \setlength{\hintscolumnwidth}{2.8cm}
 \setlength{\separatorcolumnwidth}{1mm}
 \renewcommand*{\sectionfont}{\Large\bfseries\sffamily}
 \renewcommand*{\subsectionfont}{\normalsize\bfseries\sffamily}
 
-% personal data
 \name{Zhengyang}{Yu}
-\title{Curriculum Vitae}
+\title{Software Engineer Intern Candidate}
 \address{San Diego \& Bay Area}{}{}
 \phone[mobile]{+1~510~754~7176}
 \email{zhy079@ucsd.edu}
 \email{zizha.work@outlook.com}
-\social[github]{\faGithub~zizhaolaisuimuqu}
-\social[linkedin]{\faLinkedin~zhengyang-yu-592a19309}
-\homepage{\faGlobe~resume.zizhaolaisuimuqu.top}
-\extrainfo{\httplink{aboutme.zizhaolaisuimuqu.top}}
-\extrainfo{\href{https://aboutme.zizhaolaisuimuqu.top}{\textbf{More →}}}
+\social[github]{zizhaolaisuimuqu}
+\social[linkedin]{zhengyang-yu-592a19309}
+\homepage{resume.zizhaolaisuimuqu.top}
 
 \begin{document}
 \makecvtitle
-\vspace{-1.5em}
+\vspace{-1em}
 
 %----------------------------------------------------------------------------------------
 % EDUCATION
@@ -58,63 +52,56 @@ Relevant Coursework: Data Structures, Algorithms, Computer Architecture
 \section{Projects}
 
 \cventry{2024}
-{\textbf{Home Assistant Presence Detection Plugin}}
-{Python}{}{}{
+{\textbf{Home Assistant Presence Detection Service}}
+{Python, REST APIs}{}{}{
 \begin{itemize}
-\item Designed and implemented an event-driven Python plugin to infer real-time room occupancy from entry/exit sensor data.
-\item Built lightweight state-transition logic emphasizing reliability, low latency, and predictable behavior.
-\item Integrated REST APIs and automation workflows for smart-device control using a modular, maintainable architecture.
+\item Designed and implemented an event-driven backend service to process real-time sensor events and infer room occupancy states.
+\item Engineered low-latency state transition logic to handle concurrent event streams with predictable and reliable behavior.
+\item Integrated RESTful APIs to trigger automation workflows using a modular and maintainable architecture.
+\item Emphasized deterministic state handling and robustness to reduce false-positive detection.
 \end{itemize}
 }
 
 \cventry{2025}
-{\textbf{HTML to ePub Conversion Tool}}
+{\textbf{HTML to ePub Processing Pipeline}}
 {Python}{}{}{
 \begin{itemize}
-\item Developed a scalable document-processing pipeline to convert structured HTML content into ePub format.
-\item Implemented parsing, metadata embedding, and robust error handling for automated content generation.
-\item Designed the system with extensibility in mind for future formats and batch-processing workflows.
-\end{itemize}
-}
-
-\cventry{2023}
-{\textbf{Snake Game (Console-Based)}}
-{Java}{}{}{
-\begin{itemize}
-\item Implemented a classic Snake game using object-oriented programming principles.
-\item Optimized movement and collision-detection logic for consistent runtime performance.
-\item Applied modular design and version control practices throughout development.
+\item Developed a modular content-processing pipeline to convert structured HTML into ePub format with batch-processing capability.
+\item Implemented structured parsing, metadata validation, and automated error handling for reliable document transformation.
+\item Designed the system for extensibility and maintainability with clear separation of components.
+\item Applied systematic logging and validation mechanisms to improve reliability and debuggability.
 \end{itemize}
 }
 
 %----------------------------------------------------------------------------------------
-% SKILLS
+% TECHNICAL SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Skills}
+\section{Technical Skills}
 
-\cvitem{Programming}{Python, Java, C++, C}
-\cvitem{Concepts}{Data Structures, Algorithms, Object-Oriented Design, Software Testing}
-\cvitem{Systems}{Linux environment, command-line tooling, debugging, basic container workflows}
-\cvitem{Tools}{Git, Docker, Bash (basic scripting), VS Code}
+\cvitem{Languages}{Python, Java, C++, C}
+\cvitem{Backend Concepts}{REST APIs, modular service design, event-driven architecture}
+\cvitem{Systems}{Linux environment, debugging, concurrency fundamentals, performance awareness}
+\cvitem{Databases}{SQL fundamentals, data modeling concepts}
+\cvitem{Tools}{Git, Docker, Bash scripting, VS Code}
 
 %----------------------------------------------------------------------------------------
 % ACTIVITIES
 %----------------------------------------------------------------------------------------
 
-\section{Activities}
+\section{Leadership \& Activities}
 
 \cvitem{2024--2025}
 {Computer Consultant, Oakland Public Library -- Elmhurst Branch
-\newline Provided technical troubleshooting assistance and basic software guidance to community members.}
+\newline Provided technical troubleshooting and software guidance to community members.}
 
 \cvitem{2024}
 {Tutor, Community Technology Network (CTN)
-\newline Delivered one-on-one instruction to help adults improve digital literacy and computer skills.}
+\newline Delivered one-on-one instruction to improve digital literacy and computing skills.}
 
 \cvitem{2024}
 {Member, Laney College MESA Program
-\newline Participated in STEM enrichment workshops and peer collaboration.}
+\newline Participated in STEM workshops and collaborative technical activities.}
 
 \cvitem{2025--Present}
 {Member, UCSD Envision Makerspace}
