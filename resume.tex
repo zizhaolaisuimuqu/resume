@@ -19,7 +19,6 @@
 \title{Curriculum Vitae}
 \address{San Diego \& Bay Area}{}{}
 \phone[mobile]{+1~510~754~7176}
-\email{zhy079@ucsd.edu}
 \email{zizha.work@outlook.com}
 \social[github]{\faGithub~zizhaolaisuimuqu}
 \social[linkedin]{\faLinkedin~zhengyang-yu-592a19309}
@@ -36,7 +35,8 @@
 
 \section{Education}
 \cventry{2025 -- Jun 2028}{Bachelor of Science in Computer Science}{University of California, San Diego}{San Diego, CA}{}{
-Expected Graduation: June 2028
+Expected Graduation: June 2028\\
+Relevant Coursework: Advanced Data Structures, Design and Analysis of Algorithms, Systems Programming, Computer Organization, Machine Learning
 }
 
 \cventry{2023 -- 2025}{Associate of Science in Computer Science}{Laney College}{Oakland, CA}{}{
@@ -50,22 +50,22 @@ Expected Graduation: June 2028
 \section{Projects}
 \cventry{2026}{\textbf{\href{https://github.com/zizhaolaisuimuqu/Quotaquarium}{Quotaquarium}}}{Personal Project}{}{}{
 \begin{itemize}
-\item Designed and built standalone ESP32-S3 firmware that visualizes Codex quota data as an animated, touch-controlled aquarium with multi-account support, reset countdowns, weather, and configurable alerts.
-\item Implemented adaptive HTTPS refresh scheduling on dedicated FreeRTOS tasks, RGB565 framebuffer rendering in PSRAM, IMU-driven rotation and water physics, and device-code authorization with bounded persistent logging.
-\end{itemize}
-}
-
-\cventry{2025}{\textbf{HTML to ePub Converter}}{Personal Project}{}{}{
-\begin{itemize}
-\item Engineered a converter to transform HTML content into ePub format, implementing scalable parsing and metadata embedding.
-\item Enhanced reliability and efficiency through structured error handling and modular component design.
+\item Built a user-facing C++ application that integrates authenticated APIs and presents live multi-account quota data, reset windows, configurable alerts, and interactive controls.
+\item Designed concurrent workers, adaptive HTTPS polling, and rate-limit-aware scheduling; added modular components, structured logging, and runtime diagnostics for maintainability and reliable debugging.
 \end{itemize}
 }
 
 \cventry{2024}{\textbf{Home Assistant Presence Plugin}}{Personal Project}{}{}{
 \begin{itemize}
-\item Built a Home Assistant plugin detecting real-time room occupancy using entry/exit sensor data.
-\item Designed event-driven architecture integrating Python scripts and RESTful APIs for smart lighting automation.
+\item Built a Python integration that converts entry and exit sensor events into real-time room-occupancy state.
+\item Designed an event-driven REST API workflow with explicit state transitions for reliable smart-lighting automation and easier testing and debugging.
+\end{itemize}
+}
+
+\cventry{2023}{\textbf{Console Snake Game}}{Personal Project --- Java}{}{}{
+\begin{itemize}
+\item Implemented game state, movement, and collision detection using object-oriented design and modular Java components.
+\item Applied data structures and version control while refining runtime behavior through iterative debugging.
 \end{itemize}
 }
 
@@ -74,29 +74,21 @@ Expected Graduation: June 2028
 %----------------------------------------------------------------------------------------
 
 \section{Skills}
-\cvitem{Programming}{C++, Python, Java, C}
-\cvitem{Embedded}{ESP32-S3, FreeRTOS, PlatformIO, touch and IMU integration}
-\cvitem{AI Development}{Codex-assisted implementation, refactoring, debugging, and technical documentation}
-\cvitem{Concepts}{Algorithms, Data Structures, Object-Oriented Design, Software Testing, Debugging}
-\cvitem{Tools}{Git, Docker, VS Code, Linux, Fusion 360, Adobe Creative Suite}
-\cvitem{Other}{Electronics prototyping and fabrication (UCSD Envision Makerspace)}
+\cvitem{Programming}{Java, Python, C++, C}
+\cvitem{Engineering}{Data Structures, Algorithms, Object-Oriented Design, Design Patterns, Modular Design, Software Testing, Debugging}
+\cvitem{Web \& Systems}{REST APIs, HTTP/HTTPS, authenticated API integration, event-driven and concurrent systems}
+\cvitem{Tools}{Git, Docker, Linux, VS Code}
+\cvitem{AI Tooling}{Codex-assisted implementation, refactoring, debugging, code validation, and technical documentation}
 
 %----------------------------------------------------------------------------------------
 %   ACTIVITIES SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Activities}
+\section{Experience}
 \cvitem{2024--2025}{Computer Consultant, Oakland Public Library - Elmhurst Branch
-\newline Supported community members with computer troubleshooting and taught basic software skills.}
+\newline Diagnosed computer and software issues and translated technical solutions into clear guidance for community members.}
 
 \cvitem{2024}{Tutor, CTN (Community Technology Network)
 \newline Provided one-on-one tutoring to help adults improve digital literacy skills, including computer operation and internet usage.}
-
-\cvitem{2024}{Member, Laney College MESA Program
-\newline Participated in STEM enrichment workshops and peer collaboration.}
-
-\cvitem{2025--Present}{Member, UCSD Envision Makerspace
-% \newline Collaborate on cross-disciplinary engineering projects and prototype design tools.
-}
 
 \end{document}
