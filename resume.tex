@@ -36,7 +36,8 @@
 
 \section{Education}
 \cventry{2025 -- Jun 2028}{Bachelor of Science in Computer Science}{University of California, San Diego}{San Diego, CA}{}{
-Expected Graduation: June 2028
+Expected Graduation: June 2028; GPA: 4.0/4.0\\
+Relevant Coursework: Systems Programming, Computer Organization, Advanced Data Structures, Design and Analysis of Algorithms
 }
 
 \cventry{2023 -- 2025}{Associate of Science in Computer Science}{Laney College}{Oakland, CA}{}{
@@ -50,22 +51,22 @@ Expected Graduation: June 2028
 \section{Projects}
 \cventry{2026}{\textbf{\href{https://github.com/zizhaolaisuimuqu/Quotaquarium}{Quotaquarium}}}{Personal Project}{}{}{
 \begin{itemize}
-\item Designed and built standalone ESP32-S3 firmware that visualizes Codex quota data as an animated, touch-controlled aquarium with multi-account support, reset countdowns, weather, and configurable alerts.
-\item Implemented adaptive HTTPS refresh scheduling on dedicated FreeRTOS tasks, RGB565 framebuffer rendering in PSRAM, IMU-driven rotation and water physics, and device-code authorization with bounded persistent logging.
+\item Designed and built a C++ application that authenticates multiple accounts, retrieves live data over HTTPS, and presents reset windows, weather data, configurable alerts, and interactive controls.
+\item Implemented concurrent FreeRTOS tasks, adaptive polling, and structured runtime diagnostics; tested and debugged network, state-management, and rendering failures to improve reliability.
 \end{itemize}
 }
 
 \cventry{2025}{\textbf{HTML to ePub Converter}}{Personal Project}{}{}{
 \begin{itemize}
-\item Engineered a converter to transform HTML content into ePub format, implementing scalable parsing and metadata embedding.
-\item Enhanced reliability and efficiency through structured error handling and modular component design.
+\item Engineered a Python data-processing pipeline that parses HTML, validates document structure, embeds metadata, and produces standards-compliant ePub files.
+\item Improved reliability through modular design, structured error handling, and repeatable validation of generated output.
 \end{itemize}
 }
 
 \cventry{2024}{\textbf{Home Assistant Presence Plugin}}{Personal Project}{}{}{
 \begin{itemize}
-\item Built a Home Assistant plugin detecting real-time room occupancy using entry/exit sensor data.
-\item Designed event-driven architecture integrating Python scripts and RESTful APIs for smart lighting automation.
+\item Built a Python integration that models room occupancy from entry and exit sensor events and exposes real-time state for home automation.
+\item Designed an event-driven REST API workflow with explicit state transitions to support testing, troubleshooting, and reliable smart-lighting behavior.
 \end{itemize}
 }
 
@@ -75,11 +76,10 @@ Expected Graduation: June 2028
 
 \section{Skills}
 \cvitem{Programming}{C++, Python, Java, C}
-\cvitem{Embedded}{ESP32-S3, FreeRTOS, PlatformIO, touch and IMU integration}
-\cvitem{AI Development}{Codex-assisted implementation, refactoring, debugging, and technical documentation}
-\cvitem{Concepts}{Algorithms, Data Structures, Object-Oriented Design, Software Testing, Debugging}
-\cvitem{Tools}{Git, Docker, VS Code, Linux, Fusion 360, Adobe Creative Suite}
-\cvitem{Other}{Electronics prototyping and fabrication (UCSD Envision Makerspace)}
+\cvitem{Computer Science}{Algorithms, Data Structures, Object-Oriented Design, Data Processing, Concurrent and Event-Driven Systems}
+\cvitem{Engineering}{Software Testing, Debugging, Problem Analysis, Structured Logging, Technical Documentation}
+\cvitem{Systems}{Linux, HTTP/HTTPS, REST APIs, FreeRTOS}
+\cvitem{Tools}{Git, Docker, PlatformIO, VS Code}
 
 %----------------------------------------------------------------------------------------
 %   ACTIVITIES SECTION
@@ -87,16 +87,13 @@ Expected Graduation: June 2028
 
 \section{Activities}
 \cvitem{2024--2025}{Computer Consultant, Oakland Public Library - Elmhurst Branch
-\newline Supported community members with computer troubleshooting and taught basic software skills.}
+\newline Diagnosed computer and software issues and communicated step-by-step solutions to community members with varied technical backgrounds.}
 
 \cvitem{2024}{Tutor, CTN (Community Technology Network)
-\newline Provided one-on-one tutoring to help adults improve digital literacy skills, including computer operation and internet usage.}
-
-\cvitem{2024}{Member, Laney College MESA Program
-\newline Participated in STEM enrichment workshops and peer collaboration.}
+\newline Provided one-on-one instruction to help adults build practical skills in computer operation and online services.}
 
 \cvitem{2025--Present}{Member, UCSD Envision Makerspace
-% \newline Collaborate on cross-disciplinary engineering projects and prototype design tools.
+\newline Prototype software-integrated electronics projects using makerspace fabrication tools.
 }
 
 \end{document}
