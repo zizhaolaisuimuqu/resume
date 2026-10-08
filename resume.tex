@@ -50,15 +50,16 @@ Expected Graduation: June 2028
 \section{Projects}
 \cventry{2026}{\textbf{\href{https://github.com/zizhaolaisuimuqu/Quotaquarium}{Quotaquarium}}}{Personal Project}{}{}{
 \begin{itemize}
-\item Designed and built standalone ESP32-S3 firmware that visualizes Codex quota data as an animated, touch-controlled aquarium with multi-account support, reset countdowns, weather, and configurable alerts.
-\item Implemented adaptive HTTPS refresh scheduling on dedicated FreeRTOS tasks, RGB565 framebuffer rendering in PSRAM, IMU-driven rotation and water physics, and device-code authorization with bounded persistent logging.
+\item Designed and built a C++/FreeRTOS application that authenticates multiple accounts, retrieves live data over HTTPS, and turns changing quota data into an interactive physical display.
+\item Implemented concurrent network workers, adaptive polling, structured diagnostics, and modular UI state; investigated build, state-management, rendering, and hardware-integration failures through iterative testing.
+\item Protected sensitive data with validated TLS, device-code authorization, and bounded logs designed to exclude credentials, tokens, and raw API responses.
 \end{itemize}
 }
 
 \cventry{2025}{\textbf{HTML to ePub Converter}}{Personal Project}{}{}{
 \begin{itemize}
-\item Engineered a converter to transform HTML content into ePub format, implementing scalable parsing and metadata embedding.
-\item Enhanced reliability and efficiency through structured error handling and modular component design.
+\item Engineered a Python document-processing pipeline that parses HTML, normalizes content into a structured ePub package, embeds metadata, and preserves traceable source organization.
+\item Improved reliability through modular transformations, structured error handling, and repeatable validation of generated documents.
 \end{itemize}
 }
 
@@ -75,11 +76,10 @@ Expected Graduation: June 2028
 
 \section{Skills}
 \cvitem{Programming}{C++, Python, Java, C}
-\cvitem{Embedded}{ESP32-S3, FreeRTOS, PlatformIO, touch and IMU integration}
-\cvitem{AI Development}{Codex-assisted implementation, refactoring, debugging, and technical documentation}
-\cvitem{Concepts}{Algorithms, Data Structures, Object-Oriented Design, Software Testing, Debugging}
-\cvitem{Tools}{Git, Docker, VS Code, Linux, Fusion 360, Adobe Creative Suite}
-\cvitem{Other}{Electronics prototyping and fabrication (UCSD Envision Makerspace)}
+\cvitem{AI-Assisted Development}{Codex for codebase exploration, change planning, iterative implementation, debugging, and build/test verification; critical review of generated changes}
+\cvitem{Engineering}{Git, software testing, debugging, problem analysis, structured logging, technical documentation}
+\cvitem{Systems \& Data}{Linux, Docker, HTTP/HTTPS, REST APIs, data processing, concurrent and event-driven systems, FreeRTOS}
+\cvitem{Tools}{PlatformIO, VS Code}
 
 %----------------------------------------------------------------------------------------
 %   ACTIVITIES SECTION
