@@ -16,15 +16,15 @@
 
 % personal data
 \name{Zhengyang}{Yu}
-\title{Curriculum Vitae}
+\title{Software Engineering Student}
 \address{San Diego \& Bay Area}{}{}
 \phone[mobile]{+1~510~754~7176}
 \email{zhy079@ucsd.edu}
 \email{zizha.work@outlook.com}
-\social[github]{\faGithub~zizhaolaisuimuqu}
-\social[linkedin]{\faLinkedin~zhengyang-yu-592a19309}
-\homepage{\faGlobe~resume.zizhaolaisuimuqu.top}
-\extrainfo{\httplink{aboutme.zizhaolaisuimuqu.top}}\extrainfo{\href{https://aboutme.zizhaolaisuimuqu.top}{\textbf{More →}}}
+\social[github]{zizhaolaisuimuqu}
+\social[linkedin]{zhengyang-yu-592a19309}
+\homepage{resume.zizhaolaisuimuqu.top}
+\extrainfo{\href{https://aboutme.zizhaolaisuimuqu.top}{\textbf{More \textrightarrow}}}
 
 \begin{document}
 \makecvtitle
@@ -36,7 +36,8 @@
 
 \section{Education}
 \cventry{2025 -- Jun 2028}{Bachelor of Science in Computer Science}{University of California, San Diego}{San Diego, CA}{}{
-Expected Graduation: June 2028
+Expected Graduation: June 2028; GPA: 4.0/4.0\\
+Relevant Coursework: Systems Programming, Computer Organization, Advanced Data Structures, Design and Analysis of Algorithms
 }
 
 \cventry{2023 -- 2025}{Associate of Science in Computer Science}{Laney College}{Oakland, CA}{}{
@@ -48,10 +49,11 @@ Expected Graduation: June 2028
 %----------------------------------------------------------------------------------------
 
 \section{Projects}
-\cventry{2026}{\textbf{\href{https://github.com/zizhaolaisuimuqu/Quotaquarium}{Quotaquarium}}}{Personal Project}{}{}{
+\cventry{2026}{\textbf{Quotaquarium} \href{https://apps.apple.com/us/app/quotaquarium/id6819151434}{[App Store]} \href{https://github.com/zizhaolaisuimuqu/Quotaquarium}{[GitHub]}}{Personal Project}{}{}{
 \begin{itemize}
-\item Designed and built standalone ESP32-S3 firmware that visualizes Codex quota data as an animated, touch-controlled aquarium with multi-account support, reset countdowns, weather, and configurable alerts.
-\item Implemented adaptive HTTPS refresh scheduling on dedicated FreeRTOS tasks, RGB565 framebuffer rendering in PSRAM, IMU-driven rotation and water physics, and device-code authorization with bounded persistent logging.
+\item Published a native SwiftUI companion for iPhone and Apple Watch on the App Store, providing multi-account quota monitoring, reset-credit reminders, background refresh, and a WidgetKit complication.
+\item Designed secure cross-device data flows using device authorization, Keychain, WatchConnectivity, URLSession, cached offline snapshots, and idempotent reset-credit redemption; verified with XCTest and physical-device testing.
+\item Built a companion ESP32-S3 C++/FreeRTOS implementation with adaptive HTTPS polling, touch UI, framebuffer graphics, IMU-driven water physics, and bounded persistent logs.
 \end{itemize}
 }
 
@@ -74,12 +76,12 @@ Expected Graduation: June 2028
 %----------------------------------------------------------------------------------------
 
 \section{Skills}
-\cvitem{Programming}{C++, Python, Java, C}
-\cvitem{Embedded}{ESP32-S3, FreeRTOS, PlatformIO, touch and IMU integration}
-\cvitem{AI Development}{Codex-assisted implementation, refactoring, debugging, and technical documentation}
-\cvitem{Concepts}{Algorithms, Data Structures, Object-Oriented Design, Software Testing, Debugging}
-\cvitem{Tools}{Git, Docker, VS Code, Linux, Fusion 360, Adobe Creative Suite}
-\cvitem{Other}{Electronics prototyping and fabrication (UCSD Envision Makerspace)}
+\cvitem{Programming}{Swift, C++, Python, Java, C}
+\cvitem{Apple Platforms}{SwiftUI, watchOS, WidgetKit, WatchConnectivity, Keychain, XCTest}
+\cvitem{Systems}{FreeRTOS, REST APIs, HTTPS, concurrent and event-driven systems, structured logging}
+\cvitem{Engineering}{Algorithms, data structures, object-oriented design, software testing, debugging}
+\cvitem{AI Development}{Codex-assisted codebase exploration, implementation, refactoring, debugging, and verification}
+\cvitem{Tools}{Git, Docker, Linux, PlatformIO, Xcode, VS Code}
 
 %----------------------------------------------------------------------------------------
 %   ACTIVITIES SECTION
@@ -91,12 +93,5 @@ Expected Graduation: June 2028
 
 \cvitem{2024}{Tutor, CTN (Community Technology Network)
 \newline Provided one-on-one tutoring to help adults improve digital literacy skills, including computer operation and internet usage.}
-
-\cvitem{2024}{Member, Laney College MESA Program
-\newline Participated in STEM enrichment workshops and peer collaboration.}
-
-\cvitem{2025--Present}{Member, UCSD Envision Makerspace
-% \newline Collaborate on cross-disciplinary engineering projects and prototype design tools.
-}
 
 \end{document}
